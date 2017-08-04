@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FS Classroom</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="student">
+    	<h1><%= students[sid] %></h1>
+	    <h3>Grade:
+				<span class="color">
+	    		<%= student.grade %>
+	    	</span> / 
+	    </h3>
+	    <h3>Scores:	
+				<span class="color">
+					<%= student.scores.join(", ") %>
+				</span>
+	    </h3>
+
+	    <form method="POST" action="">
+	    	<input type="text" name="score" placeholder="Enter score">
+	    	<button type="submit">Go</button>
+	    </form>
+
+	    <a href="/classrooms">
+	    	<button type="button" class="return">Return to classrooms</button>
+	    </a>
+    </div>
+  </body>
+</html>

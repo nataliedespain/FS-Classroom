@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FS Classroom</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="class">
+    	<h1><%= classes[classId] %></h1>
+	    <% for (var student in students) { %>
+	    	<a href="/classrooms/<%= classId %>/<%= student %>"><%= students[student] %></a>
+	    <% } %>
+			<br>
+	    <a href="/classrooms">
+	    	<button type="button" class="return">Return to classrooms</button>
+	    </a>
+    </div>
+  </body>
+</html>

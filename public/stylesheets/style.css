@@ -1,0 +1,117 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+input:focus, button:focus {
+  outline: none; }
+
+.color {
+  color: #928BFF; }
+
+.return {
+  margin: 10% auto;
+  background: #928BFF;
+  color: white;
+  border: none;
+  padding: 1% 2%;
+  font-size: 17px;
+  cursor: pointer; }
+  .return:hover {
+    background: black; }
+
+.index {
+  text-align: center; }
+  .index .landing {
+    margin-top: 14%;
+    font-size: 60px; }
+  .index a {
+    display: block;
+    margin: 7% auto;
+    background: #928BFF;
+    color: white;
+    border: none;
+    padding: 2% 4%;
+    font-size: 20px;
+    width: 120px;
+    text-decoration: none; }
+    .index a:hover {
+      background: black; }
+
+.classrooms {
+  text-align: center; }
+  .classrooms h1 {
+    margin-top: 4%;
+    font-size: 60px; }
+  .classrooms a {
+    text-decoration: none;
+    color: #928BFF;
+    font-size: 20px; }
+    .classrooms a:hover {
+      color: black; }
+    .classrooms a:after {
+      color: black;
+      content: ' /'; }
+    .classrooms a:last-child:after {
+      display: none; }
+
+.class {
+  text-align: center; }
+  .class h1 {
+    margin-top: 4%;
+    font-size: 60px;
+    margin-bottom: 4%; }
+  .class a {
+    text-decoration: none;
+    color: #928BFF;
+    font-size: 20px; }
+    .class a:hover {
+      color: black; }
+    .class a:after {
+      color: black;
+      content: ' /'; }
+    .class a:nth-last-child(1):after, .class a:nth-last-child(3):after {
+      display: none; }
+
+.student {
+  text-align: center; }
+  .student h1 {
+    margin-top: 4%;
+    font-size: 60px;
+    margin-bottom: 4%; }
+  .student h3 {
+    display: inline-block; }
+  .student form input {
+    margin-top: 2%;
+    padding: 5px;
+    border: none;
+    border-bottom: 4px solid black;
+    font-size: 17px; }
+  .student form button {
+    background: #928BFF;
+    color: white;
+    border: none;
+    padding: 1% 1%;
+    font-size: 15px;
+    cursor: pointer; }
+    .student form button:hover {
+      background: black; }
+
+.success {
+  text-align: center; }
+  .success a {
+    text-decoration: none; }
+  .success h1 {
+    margin-top: 8%;
+    font-size: 60px; }
+  .success button {
+    margin: 5% 2%;
+    background: #928BFF;
+    color: white;
+    border: none;
+    padding: 1% 2%;
+    font-size: 20px;
+    cursor: pointer; }
+    .success button:hover {
+      background: black; }
+
+/*# sourceMappingURL=style.css.map */

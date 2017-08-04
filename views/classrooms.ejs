@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FS Classroom</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="classrooms">
+    	<h1>Classrooms</h1>
+	    <% for (var subject in classes) { %>
+	    	<a href="/classrooms/<%= subject %>"><%= classes[subject] %></a>
+	    <% } %>
+    </div>
+  </body>
+</html>
